@@ -1,0 +1,3 @@
+shapely
+vpype[all]
+git+https://github.com/abey79/vsketch#egg=vsketch
