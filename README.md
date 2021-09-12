@@ -23,8 +23,12 @@ You'll then want to install the prerequisites:
 
 From there, you can run any of the sketches interactively using the `vsk` command:
 ```
-(sketches_env) $ vsk run 
+(sketches_env) $ vsk run pen_electrophoresis
 ```
+
+## Sketches
+
+  * [Pen Electrophoresis](https://github.com/mcroydon/plotter-sketches/blob/main/pen_electrophoresis): I really enjoy the devolving genre of plots, and this ended up reminding me a lot of [gel electrophoresis](https://en.wikipedia.org/wiki/Gel_electrophoresis).
 
 ## Creating your own sketches
 
