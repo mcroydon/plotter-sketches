@@ -29,6 +29,7 @@ From there, you can run any of the sketches interactively using the `vsk` comman
 ## Sketches
 
   * [Pen Electrophoresis](https://github.com/mcroydon/plotter-sketches/blob/main/pen_electrophoresis): I really enjoy the devolving genre of plots, and this ended up reminding me a lot of [gel electrophoresis](https://en.wikipedia.org/wiki/Gel_electrophoresis).
+  * [Rough Circles](https://github.com/mcroydon/plotter-sketches/blob/main/rough_circles): A first take on rough sketch-like circles. I'd like to revisit this with several Bézier curves for each circle for a more sketch-like look.
 
 ## Creating your own sketches
 
