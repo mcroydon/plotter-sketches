@@ -30,6 +30,7 @@ From there, you can run any of the sketches interactively using the `vsk` comman
 
   * [Pen Electrophoresis](https://github.com/mcroydon/plotter-sketches/blob/main/pen_electrophoresis): I really enjoy the devolving genre of plots, and this ended up reminding me a lot of [gel electrophoresis](https://en.wikipedia.org/wiki/Gel_electrophoresis).
   * [Rough Circles](https://github.com/mcroydon/plotter-sketches/blob/main/rough_circles): A first take on rough sketch-like circles. I'd like to revisit this with several Bézier curves for each circle for a more sketch-like look.
+  * [Ellipses](https://github.com/mcroydon/plotter-sketches/blob/main/ellipses): A lot of very tiny ellipses stretched and rotated.
   * [Grid Random](https://github.com/mcroydon/plotter-sketches/blob/main/grid_random): Randomly generate lines on (an invisible) 3x3 grid. I'd love to explore more around imposing overlap rules and maybe generating all permutations, but it's neat on its own.
 
 ## Creating your own sketches
