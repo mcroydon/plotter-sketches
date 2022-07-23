@@ -33,6 +33,7 @@ From there, you can run any of the sketches interactively using the `vsk` comman
   * [Ellipses](https://github.com/mcroydon/plotter-sketches/blob/main/ellipses): A lot of very tiny ellipses stretched and rotated.
   * [Grid Random](https://github.com/mcroydon/plotter-sketches/blob/main/grid_random): Randomly generate lines on (an invisible) 3x3 grid. I'd love to explore more around imposing overlap rules and maybe generating all permutations, but it's neat on its own.
   * [Non Overlapping Lines](https://github.com/mcroydon/plotter-sketches/blob/main/non_overlapping_lines): 3 random lines on the same 3x3 grid, but no overlaps. My first multi-layer plot.
+  * [NACA Airfoils](https://github.com/mcroydon/plotter-sketches/blob/main/naca_airfoils) A recreation of [a classic poster](https://www.nasa.gov/image-feature/langley/100/naca-airfoils) of 4 digit NACA airfoils.
 
 ## Creating your own sketches
 

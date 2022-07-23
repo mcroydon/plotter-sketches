@@ -1,3 +1,5 @@
 shapely
 vpype[all]
 git+https://github.com/abey79/vsketch#egg=vsketch
+# Only used by naca_airfoils. APL-2.0 licensed.
+airfoils
