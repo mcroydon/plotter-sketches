@@ -49,4 +49,4 @@ A great way to quickly iterate on your sketch is to run an interactive visualiza
 
 ## License
 
-These sketches are released under the MIT License. They also include boilerplate code from [vsketch](https://github.com/abey79/vsketch), also licensed under the MIT license.
+These sketches are released under the MIT License. They also include boilerplate code from [vsketch](https://github.com/abey79/vsketch), also licensed under the MIT license. The NACA Airfoils sketch uses the [airfoils](https://github.com/airinnova/airfoils) library, which is licensed under Apache-2.0.
