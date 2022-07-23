@@ -31,8 +31,6 @@ airfoil_panel_rows = (
 )
 
 class NacaAirfoilsSketch(vsketch.SketchClass):
-    # Sketch parameters:
-    # radius = vsketch.Param(2.0)
 
     def draw(self, vsk: vsketch.Vsketch) -> None:
         vsk.size("11x14in", landscape=True)
@@ -67,7 +65,6 @@ class NacaAirfoilsSketch(vsketch.SketchClass):
                             foil_count += 1
                             with vsk.pushMatrix():
                                 vsk.scale(1.5)
-                                # vsk.translate(panel_count * 4, 6 * row_count + foil_count)
                                 vsk.translate(panel_count * 4, (6 * row_count + foil_count) * .55)
                                 foil = Airfoil.NACA4(foil_ident)
                                 upper_coords = []
