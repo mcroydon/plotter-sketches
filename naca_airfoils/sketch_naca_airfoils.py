@@ -73,10 +73,10 @@ class NacaAirfoilsSketch(vsketch.SketchClass):
                                 lower_coords = []
                                 for c in range(0,len(foil._x_lower)):
                                     lower_coords.append([foil._x_lower[c], 1 - foil._y_lower[c]])
-                                upper_line = LineString(upper_coords)
-                                lower_line = LineString(lower_coords)
-                                vsk.geometry(upper_line)
-                                vsk.geometry(lower_line)
+                                # Begin lower coordinates from the back for one continuous loop.
+                                lower_coords.reverse()
+                                line = LineString(upper_coords + lower_coords)
+                                vsk.geometry(line)
                                 vsk.text(foil_ident, .5, 1.25, size="8pt", mode="label", align="center", font="futural")
 
     def finalize(self, vsk: vsketch.Vsketch) -> None:
