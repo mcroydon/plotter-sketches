@@ -45,27 +45,27 @@ class NacaAirfoilsSketch(vsketch.SketchClass):
                     panel_count += 1
                     with vsk.pushMatrix():
                         if len(panel) == 0:
-                            vsk.scale(1.5)
-                            vsk.text("NACA 0006-6121", 5, 9, size="12pt", mode="label", align="center", font="futural")
-                            vsk.text("Family of Airfoils", 5, 9.4, size="16pt", mode="label", align="center", font="futural")
-                            vsk.text("Variable Density Wind Tunnel", 5, 9.8, size="10pt", mode="label", align="center", font="futural")
-                            vsk.text("August 22, 1929", 5, 10.2, size="12pt", mode="label", align="center", font="futural")
-                            vsk.text("  Each airfoil is designated by a", 3, 11, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("number of of four digits:", 3, 11.3, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("  The first represents the maximum", 3, 11.6, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("mean camber in precent of chord", 3, 11.9, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("  The second, the positon of the", 3, 12.2, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("maximum mean camber in tenths", 3, 12.5, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("of chord from the leading edge", 3, 12.8, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("  The last two the maximum thick-", 3, 13.1, size="10pt", mode="label", align="left", font="futural")
-                            vsk.text("ness in percent of the chord", 3, 13.4, size="10pt", mode="label", align="left", font="futural")
+                            vsk.scale(2.5)
+                            vsk.text("NACA 0006-6121", 2.5, 9, size="12pt", mode="label", align="center", font="futural")
+                            vsk.text("Family of Airfoils", 2.5, 9.4, size="16pt", mode="label", align="center", font="futural")
+                            vsk.text("Variable Density Wind Tunnel", 2.5, 9.8, size="10pt", mode="label", align="center", font="futural")
+                            vsk.text("August 22, 1929", 2.5, 10.2, size="12pt", mode="label", align="center", font="futural")
+                            vsk.text("  Each airfoil is designated by a", 1.25, 11, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("number of of four digits:", 1.25, 11.3, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("  The first represents the maximum", 1.25, 11.6, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("mean camber in precent of chord", 1.25, 11.9, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("  The second, the positon of the", 1.25, 12.2, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("maximum mean camber in tenths", 1.25, 12.5, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("of chord from the leading edge", 1.25, 12.8, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("  The last two the maximum thick-", 1.25, 13.1, size="10pt", mode="label", align="left", font="futural")
+                            vsk.text("ness in percent of the chord", 1.25, 13.4, size="10pt", mode="label", align="left", font="futural")
 
                         foil_count = 0
                         for foil_ident in panel:
                             foil_count += 1
                             with vsk.pushMatrix():
-                                vsk.scale(1.5)
-                                vsk.translate(panel_count * 4, (6 * row_count + foil_count) * .55)
+                                vsk.scale(2.5)
+                                vsk.translate(panel_count * 2, (6 * row_count + foil_count) * .55)
                                 foil = Airfoil.NACA4(foil_ident)
                                 upper_coords = []
                                 for c in range(0,len(foil._x_upper)):
